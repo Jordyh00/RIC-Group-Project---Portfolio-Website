@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account</title>
+</head>
+
+<body>
+
+    <h1>Create Your Account</h1>
+
+    <!-- Prompts for user credentials -->
+
+    <form action="create_account.html" method="GET">
+
+      <!-- First Name -->
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name" placeholder="e.g. John" required>
+      <br>
+
+      <!-- Last Name --> 
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name" placeholder="e.g Doe" required>
+      <br>
+
+      <!-- Username -->
+      <label for="username">User name:</label>
+      <input type="text" id="username" name="username" placeholder="e.g. JDoe05_" required>
+      <br>
+
+      <!-- Email -->
+      <label for="eMAil">Email Address:</label>
+      <input type="text" id="eMail" name="eMail" placeholder="e.g. JohnDoe@gmail.com" required>
+      <br>
+
+      <!-- Password -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <br>
+
+      <!-- Verify Password -->
+      <label for="v_password">Verify Password:</label>
+      <input type="password" id="v_password" name="v_password" required>
+      <br>
+
+      <!-- Reset/Submit buttons -->
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit">
+
+    </form>
+
+    <!-- Link to Sign In page -->
+    <a href="sign_in.html">Have an account? Sign in</a>
+    <br>
+    <a href="index.html">Return to home page</a>
+
+</body>
+</html>
