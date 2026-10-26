@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>portfolio Professionals / Template Page</title>
+    <link rel="stylesheet" href="style1.css"> 
+
+    <style>
+
+      body {
+        color: #480061;
+        font-family: Verdana; 
+      }
+
+      #temp_buttons {
+        border-radius: 8px;
+        padding: 10px;
+        
+
+      }
+      
+    </style>
+
+    <!-- metadata telling the browser information about the website -->
+
+    <meta name="description" content="Page that prompts the user to use an existing template or to create their own.">
+    <meta name="keywords" content="Template, design, Select.">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body>
+  
+    <h1>Select Your Template</h1>
+
+    <div>
+      <a href="pre_template.html">
+        <button id="temp_buttons">
+        <h2>Use a Pre-Made Template</h2>
+        <p>Choose from professionally designed layouts.</p>
+      </button>
+      </a>
+    </div>
+    
+  <br>
+
+     <div>
+      <a href="create_template.html">
+        <button  id="temp_buttons">
+        <h2>Create Your Own Template</h2>
+        <p>Start from scratch and design your own layout.</p>
+        </button>
+      </a>
+    </div>
+    
+  <br>
+
+    <a href="index.html">Return to Home Page</a>
+
+
+</body>
+</html>
