@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfolio Professionals / Templates</title>
+    <link rel="stylesheet" href="style1.css"> 
+
+    <style>
+
+      body {
+        color: #480061;
+        font-family: Verdana; 
+      }
+
+    </style>
+    
+    
+  </head>
+
+  <body>
+
+    <!-- section created to filter template types -->
+    
+    <section id="filters">
+    <h2>Browse Templates</h2>
+
+    <!-- Form to create the category filter -->
+
+    <form>
+      <label for="category">Category:</label>
+      <select id="category">
+        <option value="all">All</option>
+        <option value="basic">Basic</option>
+        <option value="Creative">Creative</option>
+        <option value="professional">Professional</option>
+        <option value="descriptive">Descriptive</option>
+      </select>
+
+      <!-- Label section to search for templates -->
+      
+      <label for="search">Search:</label>
+      <input type="text" id="search" placeholder="Search templates...">
+    </form>
+  </section>
+
+  <!-- Section showing the available templates-->
+
+  <section id="template-section">
+    <h2>Available Templates</h2>
+
+    <div class="template-cards">
+
+    <div class="template-image">
+      <img src="template-image1" alt="Preview 1"> 
+      <h3>Template Name</h3>
+      <p>Description.</p>
+      <a href="/template1">View Template</a>
+    </div>
+
+    </div>
+
+  </section>
+  
+  <br>
+  <a href="index.html">Return to Home Page</a>
+
+  
+   
+  </body>
+
+</html>
