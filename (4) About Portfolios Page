@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>portfolio Professionals / About</title>
+    <link rel="stylesheet" href="style1.css"> 
+
+    
+
+    <!-- metadata telling the browser information about the website -->
+
+    <meta name="description" content="Website page for individuals to learn information about the website and the making of portfolios. This page will also act as a gateweay to either creating a template, choosing a pre-existing one, or returning to the home page.">
+    <meta name="keywords" content="Portfolio, template, theme, accolades, experience, design.">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+  <body>
+      <h2>What do you want to create?</h2>
+      <p> A portfolio could mean a handful of things, including: </p>
+
+        <ul>
+          <li>A large case for contents of papers</li>
+          <li>A range of investments held by an organization</li>
+          <li>A collection of work</li>
+        </ul>
+
+      <p>For the purposes of this website and yourself, we will define a portfolio as <b>a collection of work and accolades, described to visually represent and communicate ones skills and experience.</b> What we look to accomplish is providing the knowledge and resources to create your own portfolio to stand out in competitive job markets.</p> 
+
+      <p>A portfolio benefits from being designed with a certain <ins>theme</ins>, especially one that represents you well. A portfolios theme may consist of graphical elements such as color, typography, alignment, and more. It may also vary on the kind of work you would like to present.</p>
+
+      <p>To get started, feel free to design your own template, or choose from one of out pre-set templates that suit you and your work best!</p>
+
+      <a href="create_template.html">
+        <button>Create template</button>
+      </a>
+
+     <a href="pre_template.html">  
+      <button>Choose template</button>
+     </a>
+
+     <a href="index.html">
+      <button>Return to  Home Page</button>
+    </a>
+
+  </body>
+</html>
