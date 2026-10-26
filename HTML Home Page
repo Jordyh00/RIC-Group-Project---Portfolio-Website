@@ -1,0 +1,128 @@
+!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Portfolio Professionals</title>
+  <link rel="stylesheet" href="style1.css"> 
+
+  <!-- metadata telling the browser information about the website -->
+
+  <meta name="description" content="Website for individuals to create, share, and learn about portfolios.">
+	<meta name="keywords" content="Portfolios, Networking, Professional.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Stylization for page -->
+
+  <style>
+
+    #CA button {
+      background-color: #c3ffae;
+      color: #480061;
+      padding: 12 px 24 px; 
+      border-radius: 6px; 
+      border: 2px solid;
+      border-color: black;
+    }
+
+    #SI button {
+      background-color: #c3ffae;
+      color: #480061;
+      padding: 12 px 24 px; 
+      border-radius: 6px; 
+      border: 2px solid;
+      border-color: black;
+    }
+
+    #AP button {
+      background-color: #c3ffae;
+      color: #480061;
+      padding: 12 px 24 px; 
+      border-radius: 6px; 
+      border: 2px solid;
+      border-color: black;
+    }
+
+    #TP button {
+      background-color: #c3ffae;
+      color: #480061;
+      padding: 12 px 24 px; 
+      border-radius: 6px; 
+      border: 2px solid;
+      border-color: black;
+    }
+
+    #buttons button:hover {
+      transform: scale(1.10);
+      cursor: pointer;
+      opacity: 1;
+    }
+
+    #buttons {
+      display: grid;
+      grid-template-columns: repeat(2, 250px);
+      gap: 25px;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    #buttons button {
+      width: 200px;
+      padding: 10px;
+      font-size: 20px;
+      border-radius: 12px;
+    }
+    
+
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Top of the page -->
+
+  <header>
+
+  <h1> Portfolio Professionals </h1> 
+  <hr>
+  <h3> Create, share, and learn about the makings of portfolios here and now! </h3>
+
+  </header>
+
+  <!-- Buttons to navigate to separate sections of the website -->
+
+  <div id="buttons">
+
+    <div id="CA">
+      <a href="create_account.html">
+        <button>Create Account</button>
+      </a>
+    </div>
+
+    <div id="SI">
+      <a href="sign_in.html">
+        <button>Sign In</button>
+      </a>
+    </div>
+
+    <div id="AP">
+      <a href="about_portfolios.html">
+        <button>About Portfolios</button>
+      </a>
+    </div>
+
+    <div id="TP">
+      <a href="template_page.html">
+        <button>Build Your Portfolio</button>
+      </a>
+    </div>
+
+  </div>
+
+</body>
+
+
+</html>
