@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style1.css"> 
+
+    <style>
+
+      body {
+        color: #480061;
+        font-family: Verdana; 
+      }
+      
+    </style>
+    
+  </head>
+
+    <main>
+      <body>
+
+    <!-- TEMPLATE INFO -->
+    <section id="template-info">
+      <h2>Template Details</h2>
+
+      <form>
+        <label for="template-name">Template Name:</label>
+        <input type="text" id="template-name" placeholder="e.g., content catalog">
+        <br>
+
+        <label for="category">Category:</label>
+        <select id="category">
+          <option value="creative">Creative</option>
+          <option value="minimal">Minimal</option>
+          <option value="professional">Professional</option>
+        </select>
+        <br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" rows="4"
+          placeholder="Describe what makes this template unique..."></textarea>
+      </form>
+    </section>
+
+    <!-- Content Section -->
+    <section id="content-builder">
+      <h2>Template Sections</h2>
+
+      <!-- Example Section -->
+      <article class="template-section">
+        <h3>Title Section</h3>
+
+        <label for="title">Title:</label>
+        <input type="text" id="title">
+
+        <label for="subtitle">Subtitle:</label>
+        <input type="text" id="subtitle">
+      </article>
+
+      <!-- About Section -->
+      <article class="template-section">
+        <h3>About Section</h3>
+
+        <label for="about-text">About Text:</label>
+        <textarea id="about-text" rows="6"></textarea>
+      </article>
+
+      <!-- Projects Section -->
+      <article class="template-section">
+        <h3>Projects Section</h3>
+
+        <div class="item">
+          <label>Project Title:</label>
+          <input type="text">
+
+          <label>Project Description:</label>
+          <textarea rows="3"></textarea>
+
+          <label>Project Image URL:</label>
+          <input type="url">
+        </div>
+      </article>
+
+      <!-- Sections to add from JS -->
+      <button type="button" id="add-section">Add New Section</button>
+    </section>
+
+    <!-- PREVIEW via JS -->
+    <section id="preview">
+      <h2>Preview Template</h2>
+    </section>
+
+    <!-- SAVE TEMPLATE via JS -->
+    <section id="actions">
+      <button type="submit">Save Template</button>
+      <button type="button">Publish Template</button>
+    </section>
+
+    <a href="template_page.html">Return to template page</a>
+    <br>
+    <a href="index.html">Return to home page</a>
+
+    </body>
+
+  </main>
+</html>
