@@ -3,7 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Create Account</title>
+    <title>Portfolio Professionals / Create Account</title>
+    <link rel="stylesheet" href="style1.css"> 
+    <link rel="stylesheet" href="create_acc.css">
+
+    <style>
+
+      body {
+        color: #480061;
+        font-family: Verdana; 
+      }
+      
+    </style>
+    
+    <!-- metadata telling the browser information about the website -->
+
+    <meta name="description" content="Website page for individuals to create an account, with pre-existing and new information. Information given is recorded, saved, and referenced to match with sign-in credentials.">
+    <meta name="keywords" content="First name, Last name, User name, Email, Password.">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 </head>
 
 <body>
@@ -57,3 +75,6 @@
 
 </body>
 </html>
+
+
+    
