@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Portfolio | Portfolio Bros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="index.html">Portfolio Bros</a>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Sample Portfolio</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="editor-page">
+        <h1>Edit your portfolio</h1>
+        <p class="editor-description">
+            Add your background, skills, and projects.
+        </p>
+        <p class="sample-notice">
+            Frontend preview: changes are not saved yet.
+        </p>
+
+        <form id="editor-form">
+            <section class="portfolio-section" aria-labelledby="profile-title">
+                <h2 id="profile-title">Profile</h2>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="full-name">Full name</label>
+                        <input
+                            type="text"
+                            id="full-name"
+                            autocomplete="name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="major">Major</label>
+                        <input
+                            type="text"
+                            id="major"
+                            placeholder="e.g. Computer Information Systems"
+                            required
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="graduation">Expected graduation</label>
+                    <input type="month" id="graduation">
+                </div>
+
+                <div class="form-group">
+                    <label for="headline">Short introduction</label>
+                    <input
+                        type="text"
+                        id="headline"
+                        placeholder="A sentence about your interests or goals"
+                        maxlength="200"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="bio">About me</label>
+                    <textarea
+                        id="bio"
+                        rows="5"
+                        placeholder="Tell visitors about your background and interests."
+                    ></textarea>
+                </div>
+            </section>
+
+            <section class="portfolio-section" aria-labelledby="skills-title">
+                <h2 id="skills-title">Skills</h2>
+
+                <div class="form-group">
+                    <label for="skills">Your skills</label>
+                    <input
+                        type="text"
+                        id="skills"
+                        placeholder="e.g. HTML, CSS, SQL, Excel"
+                        aria-describedby="skills-help"
+                    >
+                    <p class="field-help" id="skills-help">
+                        Separate each skill with a comma.
+                    </p>
+                </div>
+            </section>
+
+            <section class="portfolio-section" aria-labelledby="project-title">
+                <h2 id="project-title">Project</h2>
+
+                <div class="form-group">
+                    <label for="project-name">Project name</label>
+                    <input type="text" id="project-name">
+                </div>
+
+                <div class="form-group">
+                    <label for="project-description">Project description</label>
+                    <textarea
+                        id="project-description"
+                        rows="4"
+                        placeholder="What did you build, and what problem did it solve?"
+                    ></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="project-contribution">Your contribution</label>
+                    <textarea
+                        id="project-contribution"
+                        rows="3"
+                        placeholder="Explain what you personally worked on."
+                    ></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="project-tools">Tools used</label>
+                    <input
+                        type="text"
+                        id="project-tools"
+                        placeholder="e.g. HTML, CSS, JavaScript"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="project-link">Project link</label>
+                    <input
+                        type="url"
+                        id="project-link"
+                        placeholder="https://github.com/..."
+                    >
+                </div>
+            </section>
+
+            <div class="editor-actions">
+                <button class="button button-primary" type="submit">
+                    Save Portfolio
+                </button>
+                <a class="button editor-back" href="index.html">
+                    Back to Home
+                </a>
+            </div>
+
+            <p id="editor-message" role="status"></p>
+        </form>
+    </main>
+
+    <footer class="site-footer">
+        <p>RIC Student Portfolios · A student-built project</p>
+    </footer>
+
+    <script>
+        document.getElementById("editor-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            document.getElementById("editor-message").textContent =
+                "Saving is not connected yet. Your entries have not been saved.";
+        });
+    </script>
+</body>
+</html>
